@@ -45,6 +45,7 @@ async def main_deepLinker(message: Message, command: CommandStart):
 @main_router.message(CommandStart(deep_link=False))
 async def start_handler(message: Message):
     await message.answer_photo(
+        photo=FSInputFile("images/main_menu.png"),
         text=await bigMessages.main_menu(),
         reply_markup=await kb.main_menu()
     )
