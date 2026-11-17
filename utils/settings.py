@@ -1,3 +1,3 @@
-SUPPORT = 'sm_value...'
-TOKEN = 'sm_value..'
-REF_BOT = 'https://t.me/ScamBot'
+SUPPORT = os.getenv("SUPPORT", "")
+TOKEN = os.getenv("TOKEN", "").strip()
+REF_BOT = os.getenv("REF_BOT", "")
