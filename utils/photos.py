@@ -2,3 +2,4 @@ MAIN_MENU_BLACK = "https://picsum.photos/1280/800"
 LK_CABINET_BLACK = "https://picsum.photos/1280/801"
 MAIN_MENU_BLUE = "https://picsum.photos/1280/802"
 LK_CABINET_BLUE = "https://picsum.photos/1280/803"
+temp: use placeholder photos
